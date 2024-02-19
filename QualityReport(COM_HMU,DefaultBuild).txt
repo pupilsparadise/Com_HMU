@@ -1,0 +1,487 @@
+QualityReport
+19 February 2024 20:10:21
+
+------ Start build(COM_HMU, DefaultBuild) ------
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.01\Bin\ccrl.exe APPLICATION\APP\Src\Application.c -cpu=S3 -o DefaultBuild\Application.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F10NPJ.DVF" -g -g_line -I Driver1\OtdDelay\inc -I Driver1\OtdUart\inc -I Application1\OtdGsm_App\inc -I Application1\OtdCircularBuffer_App\inc -I DRIVERS\Inc -I APPLICATION\APP\Inc -I SMDLED\inc -I cg_src -I . -c -MAKEUD=DefaultBuild -exec_time=C:\Users\pc\AppData\Local\Temp\CSPlusBuildTool_f93364d796214d56980eac91b02190ddxxh5epjk.1qi -msg_lang=english
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.01\Bin\ccrl.exe cg_src\r_cg_cgc_user.c -cpu=S3 -o DefaultBuild\r_cg_cgc_user.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F10NPJ.DVF" -g -g_line -I Driver1\OtdDelay\inc -I Driver1\OtdUart\inc -I Application1\OtdGsm_App\inc -I Application1\OtdCircularBuffer_App\inc -I DRIVERS\Inc -I APPLICATION\APP\Inc -I SMDLED\inc -I cg_src -I . -c -MAKEUD=DefaultBuild -exec_time=C:\Users\pc\AppData\Local\Temp\CSPlusBuildTool_d60dab188cbd450ab13becf04df166a90s4uipdz.piy -msg_lang=english
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.01\Bin\ccrl.exe cg_src\r_cg_adc.c -cpu=S3 -o DefaultBuild\r_cg_adc.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F10NPJ.DVF" -g -g_line -I Driver1\OtdDelay\inc -I Driver1\OtdUart\inc -I Application1\OtdGsm_App\inc -I Application1\OtdCircularBuffer_App\inc -I DRIVERS\Inc -I APPLICATION\APP\Inc -I SMDLED\inc -I cg_src -I . -c -MAKEUD=DefaultBuild -exec_time=C:\Users\pc\AppData\Local\Temp\CSPlusBuildTool_11bee86612df4c168b45e3a760a381bewmmv4ibp.pcx -msg_lang=english
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.01\Bin\ccrl.exe cg_src\r_cg_intp_user.c -cpu=S3 -o DefaultBuild\r_cg_intp_user.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F10NPJ.DVF" -g -g_line -I Driver1\OtdDelay\inc -I Driver1\OtdUart\inc -I Application1\OtdGsm_App\inc -I Application1\OtdCircularBuffer_App\inc -I DRIVERS\Inc -I APPLICATION\APP\Inc -I SMDLED\inc -I cg_src -I . -c -MAKEUD=DefaultBuild -exec_time=C:\Users\pc\AppData\Local\Temp\CSPlusBuildTool_ca3e7d4edf3040e5a9995ba1c0a5ad0dg4svrqpc.thd -msg_lang=english
+W0511187:The evaluation period for the option "-Odefault" of CC-RL V1 has expired. It is implicitly changed to "-Olite". Please consider purchasing the product to continue using "-Odefault". By explicitly specifying "-Olite" or "-Onothing", this warning message disappears. 
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.01\Bin\ccrl.exe cg_src\r_cg_port.c -cpu=S3 -o DefaultBuild\r_cg_port.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F10NPJ.DVF" -g -g_line -I Driver1\OtdDelay\inc -I Driver1\OtdUart\inc -I Application1\OtdGsm_App\inc -I Application1\OtdCircularBuffer_App\inc -I DRIVERS\Inc -I APPLICATION\APP\Inc -I SMDLED\inc -I cg_src -I . -c -MAKEUD=DefaultBuild -exec_time=C:\Users\pc\AppData\Local\Temp\CSPlusBuildTool_f1f78bed3fa84e39a56a51c9dd688c1dic1feb1u.arj -msg_lang=english
+W0511187:The evaluation period for the option "-Odefault" of CC-RL V1 has expired. It is implicitly changed to "-Olite". Please consider purchasing the product to continue using "-Odefault". By explicitly specifying "-Olite" or "-Onothing", this warning message disappears. 
+W0511187:The evaluation period for the option "-Odefault" of CC-RL V1 has expired. It is implicitly changed to "-Olite". Please consider purchasing the product to continue using "-Odefault". By explicitly specifying "-Olite" or "-Onothing", this warning message disappears. 
+W0511187:The evaluation period for the option "-Odefault" of CC-RL V1 has expired. It is implicitly changed to "-Olite". Please consider purchasing the product to continue using "-Odefault". By explicitly specifying "-Olite" or "-Onothing", this warning message disappears. 
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.01\Bin\ccrl.exe cg_src\r_cg_port_user.c -cpu=S3 -o DefaultBuild\r_cg_port_user.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F10NPJ.DVF" -g -g_line -I Driver1\OtdDelay\inc -I Driver1\OtdUart\inc -I Application1\OtdGsm_App\inc -I Application1\OtdCircularBuffer_App\inc -I DRIVERS\Inc -I APPLICATION\APP\Inc -I SMDLED\inc -I cg_src -I . -c -MAKEUD=DefaultBuild -exec_time=C:\Users\pc\AppData\Local\Temp\CSPlusBuildTool_2628d3171b6f476489548946b3f5df080tcne1v5.p11 -msg_lang=english
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.01\Bin\ccrl.exe cg_src\r_cg_rtc.c -cpu=S3 -o DefaultBuild\r_cg_rtc.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F10NPJ.DVF" -g -g_line -I Driver1\OtdDelay\inc -I Driver1\OtdUart\inc -I Application1\OtdGsm_App\inc -I Application1\OtdCircularBuffer_App\inc -I DRIVERS\Inc -I APPLICATION\APP\Inc -I SMDLED\inc -I cg_src -I . -c -MAKEUD=DefaultBuild -exec_time=C:\Users\pc\AppData\Local\Temp\CSPlusBuildTool_62ed0d9244714386945367317ee0fec8441yzcwg.zv1 -msg_lang=english
+G:\sam_ref_code\Develop\COM_HMU\DRIVERS\Inc\CAN.h(770):W0523076:Function declarations should have prototype
+APPLICATION\APP\Src\Application.c(63):W0523077:Called function should have prototype
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.01\Bin\ccrl.exe SMDLED\src\SmdLed.c -cpu=S3 -o DefaultBuild\SmdLed.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F10NPJ.DVF" -g -g_line -I Driver1\OtdDelay\inc -I Driver1\OtdUart\inc -I Application1\OtdGsm_App\inc -I Application1\OtdCircularBuffer_App\inc -I DRIVERS\Inc -I APPLICATION\APP\Inc -I SMDLED\inc -I cg_src -I . -c -MAKEUD=DefaultBuild -exec_time=C:\Users\pc\AppData\Local\Temp\CSPlusBuildTool_93364c2e1a8542c6ae532a5f96b92112lxl1jtyt.cho -msg_lang=english
+W0511187:The evaluation period for the option "-Odefault" of CC-RL V1 has expired. It is implicitly changed to "-Olite". Please consider purchasing the product to continue using "-Odefault". By explicitly specifying "-Olite" or "-Onothing", this warning message disappears. 
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.01\Bin\ccrl.exe cg_src\r_cg_wdt.c -cpu=S3 -o DefaultBuild\r_cg_wdt.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F10NPJ.DVF" -g -g_line -I Driver1\OtdDelay\inc -I Driver1\OtdUart\inc -I Application1\OtdGsm_App\inc -I Application1\OtdCircularBuffer_App\inc -I DRIVERS\Inc -I APPLICATION\APP\Inc -I SMDLED\inc -I cg_src -I . -c -MAKEUD=DefaultBuild -exec_time=C:\Users\pc\AppData\Local\Temp\CSPlusBuildTool_637ebe15ded9437fa48b8ca7f059af55rlouguk4.q0s -msg_lang=english
+W0511187:The evaluation period for the option "-Odefault" of CC-RL V1 has expired. It is implicitly changed to "-Olite". Please consider purchasing the product to continue using "-Odefault". By explicitly specifying "-Olite" or "-Onothing", this warning message disappears. 
+W0511187:The evaluation period for the option "-Odefault" of CC-RL V1 has expired. It is implicitly changed to "-Olite". Please consider purchasing the product to continue using "-Odefault". By explicitly specifying "-Olite" or "-Onothing", this warning message disappears. 
+W0511187:The evaluation period for the option "-Odefault" of CC-RL V1 has expired. It is implicitly changed to "-Olite". Please consider purchasing the product to continue using "-Odefault". By explicitly specifying "-Olite" or "-Onothing", this warning message disappears. 
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.01\Bin\ccrl.exe cg_src\r_cg_wdt_user.c -cpu=S3 -o DefaultBuild\r_cg_wdt_user.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F10NPJ.DVF" -g -g_line -I Driver1\OtdDelay\inc -I Driver1\OtdUart\inc -I Application1\OtdGsm_App\inc -I Application1\OtdCircularBuffer_App\inc -I DRIVERS\Inc -I APPLICATION\APP\Inc -I SMDLED\inc -I cg_src -I . -c -MAKEUD=DefaultBuild -exec_time=C:\Users\pc\AppData\Local\Temp\CSPlusBuildTool_abeb543a77154160a0dacdcf8948ef0ahrxm5jtu.zen -msg_lang=english
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.01\Bin\ccrl.exe cg_src\r_cg_rtc_user.c -cpu=S3 -o DefaultBuild\r_cg_rtc_user.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F10NPJ.DVF" -g -g_line -I Driver1\OtdDelay\inc -I Driver1\OtdUart\inc -I Application1\OtdGsm_App\inc -I Application1\OtdCircularBuffer_App\inc -I DRIVERS\Inc -I APPLICATION\APP\Inc -I SMDLED\inc -I cg_src -I . -c -MAKEUD=DefaultBuild -exec_time=C:\Users\pc\AppData\Local\Temp\CSPlusBuildTool_d3f269da4b724b98ad92757b7d51f4d1hxb30udc.1gh -msg_lang=english
+W0511187:The evaluation period for the option "-Odefault" of CC-RL V1 has expired. It is implicitly changed to "-Olite". Please consider purchasing the product to continue using "-Odefault". By explicitly specifying "-Olite" or "-Onothing", this warning message disappears. 
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.01\Bin\ccrl.exe cg_src\r_cg_adc_user.c -cpu=S3 -o DefaultBuild\r_cg_adc_user.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F10NPJ.DVF" -g -g_line -I Driver1\OtdDelay\inc -I Driver1\OtdUart\inc -I Application1\OtdGsm_App\inc -I Application1\OtdCircularBuffer_App\inc -I DRIVERS\Inc -I APPLICATION\APP\Inc -I SMDLED\inc -I cg_src -I . -c -MAKEUD=DefaultBuild -exec_time=C:\Users\pc\AppData\Local\Temp\CSPlusBuildTool_2a7710cad922473d8b617750af1b26ebn4mzn3ou.jof -msg_lang=english
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.01\Bin\ccrl.exe DRIVERS\Src\Driver.c -cpu=S3 -o DefaultBuild\Driver.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F10NPJ.DVF" -g -g_line -I Driver1\OtdDelay\inc -I Driver1\OtdUart\inc -I Application1\OtdGsm_App\inc -I Application1\OtdCircularBuffer_App\inc -I DRIVERS\Inc -I APPLICATION\APP\Inc -I SMDLED\inc -I cg_src -I . -c -MAKEUD=DefaultBuild -exec_time=C:\Users\pc\AppData\Local\Temp\CSPlusBuildTool_096f32799a9d4a8b9fef3c8058da5f0cen0tlhjk.0yd -msg_lang=english
+W0511187:The evaluation period for the option "-Odefault" of CC-RL V1 has expired. It is implicitly changed to "-Olite". Please consider purchasing the product to continue using "-Odefault". By explicitly specifying "-Olite" or "-Onothing", this warning message disappears. 
+W0511187:The evaluation period for the option "-Odefault" of CC-RL V1 has expired. It is implicitly changed to "-Olite". Please consider purchasing the product to continue using "-Odefault". By explicitly specifying "-Olite" or "-Onothing", this warning message disappears. 
+W0511187:The evaluation period for the option "-Odefault" of CC-RL V1 has expired. It is implicitly changed to "-Olite". Please consider purchasing the product to continue using "-Odefault". By explicitly specifying "-Olite" or "-Onothing", this warning message disappears. 
+W0511187:The evaluation period for the option "-Odefault" of CC-RL V1 has expired. It is implicitly changed to "-Olite". Please consider purchasing the product to continue using "-Odefault". By explicitly specifying "-Olite" or "-Onothing", this warning message disappears. 
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.01\Bin\ccrl.exe cg_src\r_cg_tau.c -cpu=S3 -o DefaultBuild\r_cg_tau.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F10NPJ.DVF" -g -g_line -I Driver1\OtdDelay\inc -I Driver1\OtdUart\inc -I Application1\OtdGsm_App\inc -I Application1\OtdCircularBuffer_App\inc -I DRIVERS\Inc -I APPLICATION\APP\Inc -I SMDLED\inc -I cg_src -I . -c -MAKEUD=DefaultBuild -exec_time=C:\Users\pc\AppData\Local\Temp\CSPlusBuildTool_39eceed8d81a4c43aa946592d1dfc596uxazxa2y.wqh -msg_lang=english
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.01\Bin\ccrl.exe cg_src\r_cg_dsadc.c -cpu=S3 -o DefaultBuild\r_cg_dsadc.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F10NPJ.DVF" -g -g_line -I Driver1\OtdDelay\inc -I Driver1\OtdUart\inc -I Application1\OtdGsm_App\inc -I Application1\OtdCircularBuffer_App\inc -I DRIVERS\Inc -I APPLICATION\APP\Inc -I SMDLED\inc -I cg_src -I . -c -MAKEUD=DefaultBuild -exec_time=C:\Users\pc\AppData\Local\Temp\CSPlusBuildTool_deae351cc56d4ac6bfba8d3d75e3f4d9c4mxqpon.qap -msg_lang=english
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.01\Bin\ccrl.exe Application1\OtdCircularBuffer_App\src\OtdCircularBuffer_App.c -cpu=S3 -o DefaultBuild\OtdCircularBuffer_App.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F10NPJ.DVF" -g -g_line -I Driver1\OtdDelay\inc -I Driver1\OtdUart\inc -I Application1\OtdGsm_App\inc -I Application1\OtdCircularBuffer_App\inc -I DRIVERS\Inc -I APPLICATION\APP\Inc -I SMDLED\inc -I cg_src -I . -c -MAKEUD=DefaultBuild -exec_time=C:\Users\pc\AppData\Local\Temp\CSPlusBuildTool_3e66f00c1ca9459ca23a8f7ce08069bcjrpdjf5b.qjt -msg_lang=english
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.01\Bin\ccrl.exe DRIVERS\Src\CAN.c -cpu=S3 -o DefaultBuild\CAN.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F10NPJ.DVF" -g -g_line -I Driver1\OtdDelay\inc -I Driver1\OtdUart\inc -I Application1\OtdGsm_App\inc -I Application1\OtdCircularBuffer_App\inc -I DRIVERS\Inc -I APPLICATION\APP\Inc -I SMDLED\inc -I cg_src -I . -c -MAKEUD=DefaultBuild -exec_time=C:\Users\pc\AppData\Local\Temp\CSPlusBuildTool_d69fd9bb40664188bb2951b65cee6081yt32haga.xjl -msg_lang=english
+W0511187:The evaluation period for the option "-Odefault" of CC-RL V1 has expired. It is implicitly changed to "-Olite". Please consider purchasing the product to continue using "-Odefault". By explicitly specifying "-Olite" or "-Onothing", this warning message disappears. 
+W0511187:The evaluation period for the option "-Odefault" of CC-RL V1 has expired. It is implicitly changed to "-Olite". Please consider purchasing the product to continue using "-Odefault". By explicitly specifying "-Olite" or "-Onothing", this warning message disappears. 
+W0511187:The evaluation period for the option "-Odefault" of CC-RL V1 has expired. It is implicitly changed to "-Olite". Please consider purchasing the product to continue using "-Odefault". By explicitly specifying "-Olite" or "-Onothing", this warning message disappears. 
+G:\sam_ref_code\Develop\COM_HMU\cg_src\r_cg_macrodriver.h(75):W0520301:Typedef name has already been declared (with same type)
+G:\sam_ref_code\Develop\COM_HMU\cg_src\r_cg_macrodriver.h(76):W0520301:Typedef name has already been declared (with same type)
+G:\sam_ref_code\Develop\COM_HMU\cg_src\r_cg_macrodriver.h(77):W0520301:Typedef name has already been declared (with same type)
+G:\sam_ref_code\Develop\COM_HMU\cg_src\r_cg_macrodriver.h(78):W0520301:Typedef name has already been declared (with same type)
+G:\sam_ref_code\Develop\COM_HMU\cg_src\r_cg_macrodriver.h(79):W0520301:Typedef name has already been declared (with same type)
+G:\sam_ref_code\Develop\COM_HMU\cg_src\r_cg_macrodriver.h(80):W0520301:Typedef name has already been declared (with same type)
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.01\Bin\ccrl.exe cg_src\r_cg_tau_user.c -cpu=S3 -o DefaultBuild\r_cg_tau_user.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F10NPJ.DVF" -g -g_line -I Driver1\OtdDelay\inc -I Driver1\OtdUart\inc -I Application1\OtdGsm_App\inc -I Application1\OtdCircularBuffer_App\inc -I DRIVERS\Inc -I APPLICATION\APP\Inc -I SMDLED\inc -I cg_src -I . -c -MAKEUD=DefaultBuild -exec_time=C:\Users\pc\AppData\Local\Temp\CSPlusBuildTool_2303072177d04079a566a7997d105330sdg05lls.rqf -msg_lang=english
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.01\Bin\ccrl.exe cg_src\r_cg_dsadc_user.c -cpu=S3 -o DefaultBuild\r_cg_dsadc_user.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F10NPJ.DVF" -g -g_line -I Driver1\OtdDelay\inc -I Driver1\OtdUart\inc -I Application1\OtdGsm_App\inc -I Application1\OtdCircularBuffer_App\inc -I DRIVERS\Inc -I APPLICATION\APP\Inc -I SMDLED\inc -I cg_src -I . -c -MAKEUD=DefaultBuild -exec_time=C:\Users\pc\AppData\Local\Temp\CSPlusBuildTool_2ac8fcf5fc0b45e9a22074028b760a964xlaxrq2.men -msg_lang=english
+Application1\OtdCircularBuffer_App\src\OtdCircularBuffer_App.c(77):W0520940:Missing return statement at end of non-void function "OtdCircularBufferApp_BufferClear"
+Application1\OtdCircularBuffer_App\src\OtdCircularBuffer_App.c(172):W0520167:Argument of type "volatile unsigned char __near *" is incompatible with parameter of type "unsigned char *__near"
+Application1\OtdCircularBuffer_App\src\OtdCircularBuffer_App.c(172):W0520188:Enumerated type mixed with another type
+Application1\OtdCircularBuffer_App\src\OtdCircularBuffer_App.c(194):W0520167:Argument of type "volatile unsigned char __near *" is incompatible with parameter of type "unsigned char *__near"
+Application1\OtdCircularBuffer_App\src\OtdCircularBuffer_App.c(194):W0520188:Enumerated type mixed with another type
+Application1\OtdCircularBuffer_App\src\OtdCircularBuffer_App.c(203):W0520167:Argument of type "volatile unsigned char __near *" is incompatible with parameter of type "unsigned char *__near"
+Application1\OtdCircularBuffer_App\src\OtdCircularBuffer_App.c(203):W0520188:Enumerated type mixed with another type
+Application1\OtdCircularBuffer_App\src\OtdCircularBuffer_App.c(211):W0520167:Argument of type "volatile unsigned char __near *" is incompatible with parameter of type "unsigned char *__near"
+Application1\OtdCircularBuffer_App\src\OtdCircularBuffer_App.c(211):W0520188:Enumerated type mixed with another type
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.01\Bin\ccrl.exe Application1\OtdGsm_App\src\OtdGsm_App.c -cpu=S3 -o DefaultBuild\OtdGsm_App.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F10NPJ.DVF" -g -g_line -I Driver1\OtdDelay\inc -I Driver1\OtdUart\inc -I Application1\OtdGsm_App\inc -I Application1\OtdCircularBuffer_App\inc -I DRIVERS\Inc -I APPLICATION\APP\Inc -I SMDLED\inc -I cg_src -I . -c -MAKEUD=DefaultBuild -exec_time=C:\Users\pc\AppData\Local\Temp\CSPlusBuildTool_41963575fbd44545a1f5db0f9dfc32a6vuxcecrf.jch -msg_lang=english
+W0511187:The evaluation period for the option "-Odefault" of CC-RL V1 has expired. It is implicitly changed to "-Olite". Please consider purchasing the product to continue using "-Odefault". By explicitly specifying "-Olite" or "-Onothing", this warning message disappears. 
+W0511187:The evaluation period for the option "-Odefault" of CC-RL V1 has expired. It is implicitly changed to "-Olite". Please consider purchasing the product to continue using "-Odefault". By explicitly specifying "-Olite" or "-Onothing", this warning message disappears. 
+Application1\OtdGsm_App\src\OtdGsm_App.c(97):W0520167:Argument of type "const uint8_t __near *" is incompatible with parameter of type "char __far *__near"
+Application1\OtdGsm_App\src\OtdGsm_App.c(126):W0520167:Argument of type "uint8_t __near *" is incompatible with parameter of type "char __far *__near"
+Application1\OtdGsm_App\src\OtdGsm_App.c(127):W0520167:Argument of type "uint8_t __near *" is incompatible with parameter of type "const volatile char *__near"
+Application1\OtdGsm_App\src\OtdGsm_App.c(139):W0520167:Argument of type "char __far *__near" is incompatible with parameter of type "const char __near *__near"
+Application1\OtdGsm_App\src\OtdGsm_App.c(139):W0520167:Argument of type "char __far *__near" is incompatible with parameter of type "const char *__near"
+Application1\OtdGsm_App\src\OtdGsm_App.c(174):W0520167:Argument of type "char __far *__near" is incompatible with parameter of type "const char __near *__near"
+Application1\OtdGsm_App\src\OtdGsm_App.c(174):W0520167:Argument of type "char __far *__near" is incompatible with parameter of type "const char *__near"
+Application1\OtdGsm_App\src\OtdGsm_App.c(209):W0520167:Argument of type "char __far *__near" is incompatible with parameter of type "const char __near *__near"
+Application1\OtdGsm_App\src\OtdGsm_App.c(209):W0520167:Argument of type "char __far *__near" is incompatible with parameter of type "const char *__near"
+Application1\OtdGsm_App\src\OtdGsm_App.c(243):W0520167:Argument of type "char __far *__near" is incompatible with parameter of type "const char __near *__near"
+Application1\OtdGsm_App\src\OtdGsm_App.c(243):W0520167:Argument of type "char __far *__near" is incompatible with parameter of type "const char *__near"
+Application1\OtdGsm_App\src\OtdGsm_App.c(277):W0520167:Argument of type "char __far *__near" is incompatible with parameter of type "const char __near *__near"
+Application1\OtdGsm_App\src\OtdGsm_App.c(277):W0520167:Argument of type "char __far *__near" is incompatible with parameter of type "const char *__near"
+Application1\OtdGsm_App\src\OtdGsm_App.c(312):W0520167:Argument of type "char __far *__near" is incompatible with parameter of type "const char __near *__near"
+Application1\OtdGsm_App\src\OtdGsm_App.c(312):W0520167:Argument of type "char __far *__near" is incompatible with parameter of type "const char *__near"
+Application1\OtdGsm_App\src\OtdGsm_App.c(348):W0520167:Argument of type "char __far *__near" is incompatible with parameter of type "const char __near *__near"
+Application1\OtdGsm_App\src\OtdGsm_App.c(348):W0520167:Argument of type "char __far *__near" is incompatible with parameter of type "const char *__near"
+Application1\OtdGsm_App\src\OtdGsm_App.c(356):W0520167:Argument of type "uint8_t __near *" is incompatible with parameter of type "const char *__near"
+Application1\OtdGsm_App\src\OtdGsm_App.c(357):W0520167:Argument of type "uint8_t __near *" is incompatible with parameter of type "char __far *__near"
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.01\Bin\ccrl.exe Driver1\OtdUart\src\OtdUART.c -cpu=S3 -o DefaultBuild\OtdUART.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F10NPJ.DVF" -g -g_line -I Driver1\OtdDelay\inc -I Driver1\OtdUart\inc -I Application1\OtdGsm_App\inc -I Application1\OtdCircularBuffer_App\inc -I DRIVERS\Inc -I APPLICATION\APP\Inc -I SMDLED\inc -I cg_src -I . -c -MAKEUD=DefaultBuild -exec_time=C:\Users\pc\AppData\Local\Temp\CSPlusBuildTool_bf7eace3a53d4bcf94f9fd93bfd4aa13irq2erlg.5je -msg_lang=english
+Application1\OtdGsm_App\src\OtdGsm_App.c(358):W0520167:Argument of type "uint8_t __near *" is incompatible with parameter of type "const volatile char *__near"
+Application1\OtdGsm_App\src\OtdGsm_App.c(391):W0520167:Argument of type "char __far *__near" is incompatible with parameter of type "const char __near *__near"
+Application1\OtdGsm_App\src\OtdGsm_App.c(391):W0520167:Argument of type "char __far *__near" is incompatible with parameter of type "const char *__near"
+Application1\OtdGsm_App\src\OtdGsm_App.c(435):W0520167:Argument of type "char __far *__near" is incompatible with parameter of type "const char __near *__near"
+Application1\OtdGsm_App\src\OtdGsm_App.c(435):W0520167:Argument of type "char __far *__near" is incompatible with parameter of type "const char *__near"
+Application1\OtdGsm_App\src\OtdGsm_App.c(471):W0520167:Argument of type "char __far *__near" is incompatible with parameter of type "const char __near *__near"
+Application1\OtdGsm_App\src\OtdGsm_App.c(471):W0520167:Argument of type "char __far *__near" is incompatible with parameter of type "const char *__near"
+Application1\OtdGsm_App\src\OtdGsm_App.c(507):W0520167:Argument of type "char __far *__near" is incompatible with parameter of type "const char __near *__near"
+Application1\OtdGsm_App\src\OtdGsm_App.c(507):W0520167:Argument of type "char __far *__near" is incompatible with parameter of type "const char *__near"
+Application1\OtdGsm_App\src\OtdGsm_App.c(544):W0520167:Argument of type "char __far *__near" is incompatible with parameter of type "const char __near *__near"
+Application1\OtdGsm_App\src\OtdGsm_App.c(544):W0520167:Argument of type "char __far *__near" is incompatible with parameter of type "const char *__near"
+Application1\OtdGsm_App\src\OtdGsm_App.c(835):W0520167:Argument of type "uint8_t __near *" is incompatible with parameter of type "char __far *__near"
+Application1\OtdGsm_App\src\OtdGsm_App.c(836):W0520167:Argument of type "uint8_t __near *" is incompatible with parameter of type "const volatile char *__near"
+W0511187:The evaluation period for the option "-Odefault" of CC-RL V1 has expired. It is implicitly changed to "-Olite". Please consider purchasing the product to continue using "-Odefault". By explicitly specifying "-Olite" or "-Onothing", this warning message disappears. 
+G:\sam_ref_code\Develop\COM_HMU\DRIVERS\Inc\CAN.h(770):W0523076:Function declarations should have prototype
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.01\inc\stdint.h(18):W0520301:Typedef name has already been declared (with same type)
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.01\inc\stdint.h(19):W0520301:Typedef name has already been declared (with same type)
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.01\inc\stdint.h(20):W0520301:Typedef name has already been declared (with same type)
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.01\inc\stdint.h(25):W0520301:Typedef name has already been declared (with same type)
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.01\inc\stdint.h(26):W0520301:Typedef name has already been declared (with same type)
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.01\inc\stdint.h(27):W0520301:Typedef name has already been declared (with same type)
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.01\inc\stdint.h(29):W0520301:Typedef name has already been declared (with same type)
+G:\sam_ref_code\Develop\COM_HMU\APPLICATION\APP\Inc\Application.h(7):W0520047:Incompatible redefinition of macro "NULL" (declared at line 22 of "C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.01\inc\stddef.h")
+DRIVERS\Src\CAN.c(1496):W0520550:Variable "ciFifoSta" was set but never used
+DRIVERS\Src\CAN.c(1865):W0520172:External/internal linkage conflict with previous declaration
+DRIVERS\Src\CAN.c(1867):W0523076:Function declarations should have prototype
+DRIVERS\Src\CAN.c(1878):W0520167:Argument of type "CAN_RX_FIFO_EVENT __near *" is incompatible with parameter of type "CAN_TX_FIFO_EVENT *__near"
+DRIVERS\Src\CAN.c(1871):W0520177:Variable "RxCanDevID" was declared but never referenced
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.01\Bin\ccrl.exe Application1\OtdGsm_App\src\OtdGsm_TcpApp.c -cpu=S3 -o DefaultBuild\OtdGsm_TcpApp.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F10NPJ.DVF" -g -g_line -I Driver1\OtdDelay\inc -I Driver1\OtdUart\inc -I Application1\OtdGsm_App\inc -I Application1\OtdCircularBuffer_App\inc -I DRIVERS\Inc -I APPLICATION\APP\Inc -I SMDLED\inc -I cg_src -I . -c -MAKEUD=DefaultBuild -exec_time=C:\Users\pc\AppData\Local\Temp\CSPlusBuildTool_7adcc287847c4e51b7a294fa156b2f34gvsppb1z.kbk -msg_lang=english
+DRIVERS\Src\CAN.c(1872):W0520177:Variable "data" was declared but never referenced
+DRIVERS\Src\CAN.c(1876):W0520177:Variable "rcv_count" was declared but never referenced
+DRIVERS\Src\CAN.c(1922):W0520068:Integer conversion resulted in a change of sign
+DRIVERS\Src\CAN.c(1938):W0520167:Argument of type "const uint8_t __near *" is incompatible with parameter of type "char __far *__near"
+DRIVERS\Src\CAN.c(1941):W0523077:Called function should have prototype
+DRIVERS\Src\CAN.c(1941):W0520167:Argument of type "const uint8_t __near *" is incompatible with parameter of type "uint8_t *const __near"
+W0511187:The evaluation period for the option "-Odefault" of CC-RL V1 has expired. It is implicitly changed to "-Olite". Please consider purchasing the product to continue using "-Odefault". By explicitly specifying "-Olite" or "-Onothing", this warning message disappears. 
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.01\Bin\ccrl.exe cg_src\r_cg_main.c -cpu=S3 -o DefaultBuild\r_cg_main.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F10NPJ.DVF" -g -g_line -I Driver1\OtdDelay\inc -I Driver1\OtdUart\inc -I Application1\OtdGsm_App\inc -I Application1\OtdCircularBuffer_App\inc -I DRIVERS\Inc -I APPLICATION\APP\Inc -I SMDLED\inc -I cg_src -I . -c -MAKEUD=DefaultBuild -exec_time=C:\Users\pc\AppData\Local\Temp\CSPlusBuildTool_97ffddbc92c5472f8936216e0dd3d5a825ivg3sb.xrw -msg_lang=english
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.01\inc\stdint.h(18):W0520301:Typedef name has already been declared (with same type)
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.01\inc\stdint.h(19):W0520301:Typedef name has already been declared (with same type)
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.01\inc\stdint.h(20):W0520301:Typedef name has already been declared (with same type)
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.01\inc\stdint.h(25):W0520301:Typedef name has already been declared (with same type)
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.01\inc\stdint.h(26):W0520301:Typedef name has already been declared (with same type)
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.01\inc\stdint.h(27):W0520301:Typedef name has already been declared (with same type)
+G:\sam_ref_code\Develop\COM_HMU\cg_src\r_cg_userdefine.h(36):W0520301:Typedef name has already been declared (with same type)
+G:\sam_ref_code\Develop\COM_HMU\APPLICATION\APP\Inc\Application.h(7):W0520047:Incompatible redefinition of macro "NULL" (declared at line 22 of "C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.01\inc\stddef.h")
+Driver1\OtdUart\src\OtdUART.c(146):W0520167:Argument of type "const uint8_t __near *" is incompatible with parameter of type "char __far *__near"
+Driver1\OtdUart\src\OtdUART.c(149):W0520167:Argument of type "const uint8_t __near *" is incompatible with parameter of type "const char __near *__near"
+Driver1\OtdUart\src\OtdUART.c(149):W0520167:Argument of type "const uint8_t __near *" is incompatible with parameter of type "uint8_t *const __near"
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.01\Bin\ccrl.exe cstart.asm -cpu=S3 -o DefaultBuild\cstart.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F10NPJ.DVF" -g -c -MAKEUD=DefaultBuild -exec_time=C:\Users\pc\AppData\Local\Temp\CSPlusBuildTool_0d55cee8a3f44808a8b5e7f2d6b20f3dilo4fvc0.j5c -msg_lang=english
+W0511187:The evaluation period for the option "-Odefault" of CC-RL V1 has expired. It is implicitly changed to "-Olite". Please consider purchasing the product to continue using "-Odefault". By explicitly specifying "-Olite" or "-Onothing", this warning message disappears. 
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.01\Bin\ccrl.exe stkinit.asm -cpu=S3 -o DefaultBuild\stkinit.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F10NPJ.DVF" -g -c -MAKEUD=DefaultBuild -exec_time=C:\Users\pc\AppData\Local\Temp\CSPlusBuildTool_f700e69285324c0c912dfded91a8a45133ioelsa.0c3 -msg_lang=english
+Application1\OtdGsm_App\src\OtdGsm_TcpApp.c(67):W0520167:Argument of type "uint8_t __near *" is incompatible with parameter of type "char __far *__near"
+Application1\OtdGsm_App\src\OtdGsm_TcpApp.c(68):W0520167:Argument of type "uint8_t __near *" is incompatible with parameter of type "const volatile char *__near"
+Application1\OtdGsm_App\src\OtdGsm_TcpApp.c(84):W0520167:Argument of type "char __far *__near" is incompatible with parameter of type "const char __near *__near"
+Application1\OtdGsm_App\src\OtdGsm_TcpApp.c(84):W0520167:Argument of type "char __far *__near" is incompatible with parameter of type "const char *__near"
+Application1\OtdGsm_App\src\OtdGsm_TcpApp.c(84):W0520167:Argument of type "char __near *" is incompatible with parameter of type "uint8_t *__near"
+Application1\OtdGsm_App\src\OtdGsm_TcpApp.c(99):W0520167:Argument of type "char __far *__near" is incompatible with parameter of type "const char __near *__near"
+Application1\OtdGsm_App\src\OtdGsm_TcpApp.c(99):W0520167:Argument of type "char __far *__near" is incompatible with parameter of type "const char *__near"
+Application1\OtdGsm_App\src\OtdGsm_TcpApp.c(99):W0520167:Argument of type "char __near *" is incompatible with parameter of type "uint8_t *__near"
+Application1\OtdGsm_App\src\OtdGsm_TcpApp.c(140):W0520167:Argument of type "char __far *__near" is incompatible with parameter of type "const char __near *__near"
+Application1\OtdGsm_App\src\OtdGsm_TcpApp.c(140):W0520167:Argument of type "char __far *__near" is incompatible with parameter of type "const char *__near"
+Application1\OtdGsm_App\src\OtdGsm_TcpApp.c(140):W0520167:Argument of type "char __near *" is incompatible with parameter of type "uint8_t *__near"
+Application1\OtdGsm_App\src\OtdGsm_TcpApp.c(148):W0520167:Argument of type "char __far *__near" is incompatible with parameter of type "const char __near *__near"
+Application1\OtdGsm_App\src\OtdGsm_TcpApp.c(148):W0520167:Argument of type "char __far *__near" is incompatible with parameter of type "const char *__near"
+Application1\OtdGsm_App\src\OtdGsm_TcpApp.c(148):W0520167:Argument of type "char __near *" is incompatible with parameter of type "uint8_t *__near"
+Application1\OtdGsm_App\src\OtdGsm_TcpApp.c(202):W0520167:Argument of type "char __far *__near" is incompatible with parameter of type "const char __near *__near"
+Application1\OtdGsm_App\src\OtdGsm_TcpApp.c(202):W0520167:Argument of type "char __far *__near" is incompatible with parameter of type "const char *__near"
+Application1\OtdGsm_App\src\OtdGsm_TcpApp.c(202):W0520167:Argument of type "char __near *" is incompatible with parameter of type "uint8_t *__near"
+Application1\OtdGsm_App\src\OtdGsm_TcpApp.c(204):W0520167:Argument of type "uint8_t *" is incompatible with parameter of type "const char *__near"
+Application1\OtdGsm_App\src\OtdGsm_TcpApp.c(204):W0520167:Argument of type "char __near *" is incompatible with parameter of type "uint8_t *__near"
+Application1\OtdGsm_App\src\OtdGsm_TcpApp.c(205):W0520167:Argument of type "uint8_t *" is incompatible with parameter of type "const char *__near"
+Application1\OtdGsm_App\src\OtdGsm_TcpApp.c(205):W0520167:Argument of type "char __near *" is incompatible with parameter of type "uint8_t *__near"
+Application1\OtdGsm_App\src\OtdGsm_TcpApp.c(252):W0520167:Argument of type "char __far *__near" is incompatible with parameter of type "const char __near *__near"
+Application1\OtdGsm_App\src\OtdGsm_TcpApp.c(252):W0520167:Argument of type "char __far *__near" is incompatible with parameter of type "const char *__near"
+Application1\OtdGsm_App\src\OtdGsm_TcpApp.c(252):W0520167:Argument of type "char __near *" is incompatible with parameter of type "uint8_t *__near"
+Application1\OtdGsm_App\src\OtdGsm_TcpApp.c(294):W0520167:Argument of type "char __far *__near" is incompatible with parameter of type "const char __near *__near"
+Application1\OtdGsm_App\src\OtdGsm_TcpApp.c(294):W0520167:Argument of type "char __far *__near" is incompatible with parameter of type "const char *__near"
+Application1\OtdGsm_App\src\OtdGsm_TcpApp.c(294):W0520167:Argument of type "char __near *" is incompatible with parameter of type "uint8_t *__near"
+Application1\OtdGsm_App\src\OtdGsm_TcpApp.c(309):W0520167:Argument of type "uint8_t *" is incompatible with parameter of type "const char *__near"
+Application1\OtdGsm_App\src\OtdGsm_TcpApp.c(309):W0520167:Argument of type "char __near *" is incompatible with parameter of type "uint8_t *__near"
+Application1\OtdGsm_App\src\OtdGsm_TcpApp.c(345):W0520167:Argument of type "char __far *__near" is incompatible with parameter of type "const char __near *__near"
+Application1\OtdGsm_App\src\OtdGsm_TcpApp.c(345):W0520167:Argument of type "char __far *__near" is incompatible with parameter of type "const char *__near"
+Application1\OtdGsm_App\src\OtdGsm_TcpApp.c(345):W0520167:Argument of type "char __near *" is incompatible with parameter of type "uint8_t *__near"
+Application1\OtdGsm_App\src\OtdGsm_TcpApp.c(387):W0520167:Argument of type "char __far *__near" is incompatible with parameter of type "const char __near *__near"
+Application1\OtdGsm_App\src\OtdGsm_TcpApp.c(387):W0520167:Argument of type "char __far *__near" is incompatible with parameter of type "const char *__near"
+Application1\OtdGsm_App\src\OtdGsm_TcpApp.c(387):W0520167:Argument of type "char __near *" is incompatible with parameter of type "uint8_t *__near"
+Application1\OtdGsm_App\src\OtdGsm_TcpApp.c(400):W0520167:Argument of type "char __far *__near" is incompatible with parameter of type "const char __near *__near"
+Application1\OtdGsm_App\src\OtdGsm_TcpApp.c(400):W0520167:Argument of type "char __far *__near" is incompatible with parameter of type "const char *__near"
+Application1\OtdGsm_App\src\OtdGsm_TcpApp.c(400):W0520167:Argument of type "char __near *" is incompatible with parameter of type "uint8_t *__near"
+Application1\OtdGsm_App\src\OtdGsm_TcpApp.c(433):W0520167:Argument of type "char __far *__near" is incompatible with parameter of type "const char __near *__near"
+Application1\OtdGsm_App\src\OtdGsm_TcpApp.c(433):W0520167:Argument of type "char __far *__near" is incompatible with parameter of type "const char *__near"
+Application1\OtdGsm_App\src\OtdGsm_TcpApp.c(433):W0520167:Argument of type "char __near *" is incompatible with parameter of type "uint8_t *__near"
+Application1\OtdGsm_App\src\OtdGsm_TcpApp.c(740):W0520167:Argument of type "uint8_t __near *" is incompatible with parameter of type "char __far *__near"
+Application1\OtdGsm_App\src\OtdGsm_TcpApp.c(741):W0520167:Argument of type "uint8_t __near *" is incompatible with parameter of type "const volatile char *__near"
+Application1\OtdGsm_App\src\OtdGsm_TcpApp.c(772):W0520167:Argument of type "uint8_t __near *" is incompatible with parameter of type "char __far *__near"
+Application1\OtdGsm_App\src\OtdGsm_TcpApp.c(773):W0520167:Argument of type "uint8_t __near *" is incompatible with parameter of type "const volatile char *__near"
+Application1\OtdGsm_App\src\OtdGsm_TcpApp.c(786):W0520167:Argument of type "char __far *__near" is incompatible with parameter of type "const char __near *__near"
+Application1\OtdGsm_App\src\OtdGsm_TcpApp.c(786):W0520167:Argument of type "char __far *__near" is incompatible with parameter of type "const char *__near"
+Application1\OtdGsm_App\src\OtdGsm_TcpApp.c(821):W0520167:Argument of type "char __far *__near" is incompatible with parameter of type "const char __near *__near"
+Application1\OtdGsm_App\src\OtdGsm_TcpApp.c(821):W0520167:Argument of type "char __far *__near" is incompatible with parameter of type "const char *__near"
+Application1\OtdGsm_App\src\OtdGsm_TcpApp.c(965):W0520188:Enumerated type mixed with another type
+Application1\OtdGsm_App\src\OtdGsm_TcpApp.c(981):W0520167:Argument of type "uint8_t __near *" is incompatible with parameter of type "char __far *__near"
+Application1\OtdGsm_App\src\OtdGsm_TcpApp.c(982):W0520167:Argument of type "uint8_t __near *" is incompatible with parameter of type "const volatile char *__near"
+Application1\OtdGsm_App\src\OtdGsm_TcpApp.c(20):W0520177:Variable "cipopen_cmd" was declared but never referenced
+W0511187:The evaluation period for the option "-Odefault" of CC-RL V1 has expired. It is implicitly changed to "-Olite". Please consider purchasing the product to continue using "-Odefault". By explicitly specifying "-Olite" or "-Onothing", this warning message disappears. 
+W0511187:The evaluation period for the option "-Odefault" of CC-RL V1 has expired. It is implicitly changed to "-Olite". Please consider purchasing the product to continue using "-Odefault". By explicitly specifying "-Olite" or "-Onothing", this warning message disappears. 
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.01\inc\stdint.h(18):W0520301:Typedef name has already been declared (with same type)
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.01\inc\stdint.h(19):W0520301:Typedef name has already been declared (with same type)
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.01\Bin\ccrl.exe Driver1\OtdDelay\src\OtdDelay.c -cpu=S3 -o DefaultBuild\OtdDelay.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F10NPJ.DVF" -g -g_line -I Driver1\OtdDelay\inc -I Driver1\OtdUart\inc -I Application1\OtdGsm_App\inc -I Application1\OtdCircularBuffer_App\inc -I DRIVERS\Inc -I APPLICATION\APP\Inc -I SMDLED\inc -I cg_src -I . -c -MAKEUD=DefaultBuild -exec_time=C:\Users\pc\AppData\Local\Temp\CSPlusBuildTool_68d8cfb54313402aa79380b0bc35ab0chjgil2f2.1nr -msg_lang=english
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.01\Bin\ccrl.exe cg_src\r_cg_sau.c -cpu=S3 -o DefaultBuild\r_cg_sau.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F10NPJ.DVF" -g -g_line -I Driver1\OtdDelay\inc -I Driver1\OtdUart\inc -I Application1\OtdGsm_App\inc -I Application1\OtdCircularBuffer_App\inc -I DRIVERS\Inc -I APPLICATION\APP\Inc -I SMDLED\inc -I cg_src -I . -c -MAKEUD=DefaultBuild -exec_time=C:\Users\pc\AppData\Local\Temp\CSPlusBuildTool_1ae63c3cdef54d35a75950abd0f0f755fgfgyell.xnu -msg_lang=english
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.01\inc\stdint.h(20):W0520301:Typedef name has already been declared (with same type)
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.01\inc\stdint.h(25):W0520301:Typedef name has already been declared (with same type)
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.01\inc\stdint.h(26):W0520301:Typedef name has already been declared (with same type)
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.01\inc\stdint.h(27):W0520301:Typedef name has already been declared (with same type)
+cg_src\r_cg_userdefine.h(36):W0520301:Typedef name has already been declared (with same type)
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.01\Bin\ccrl.exe cg_src\r_cg_systeminit.c -cpu=S3 -o DefaultBuild\r_cg_systeminit.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F10NPJ.DVF" -g -g_line -I Driver1\OtdDelay\inc -I Driver1\OtdUart\inc -I Application1\OtdGsm_App\inc -I Application1\OtdCircularBuffer_App\inc -I DRIVERS\Inc -I APPLICATION\APP\Inc -I SMDLED\inc -I cg_src -I . -c -MAKEUD=DefaultBuild -exec_time=C:\Users\pc\AppData\Local\Temp\CSPlusBuildTool_81bda2543c304fb39409707e988d7dfdm2nq3aer.fnv -msg_lang=english
+W0511187:The evaluation period for the option "-Odefault" of CC-RL V1 has expired. It is implicitly changed to "-Olite". Please consider purchasing the product to continue using "-Odefault". By explicitly specifying "-Olite" or "-Onothing", this warning message disappears. 
+W0511187:The evaluation period for the option "-Odefault" of CC-RL V1 has expired. It is implicitly changed to "-Olite". Please consider purchasing the product to continue using "-Odefault". By explicitly specifying "-Olite" or "-Onothing", this warning message disappears. 
+W0511187:The evaluation period for the option "-Odefault" of CC-RL V1 has expired. It is implicitly changed to "-Olite". Please consider purchasing the product to continue using "-Odefault". By explicitly specifying "-Olite" or "-Onothing", this warning message disappears. 
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.01\Bin\ccrl.exe cg_src\r_cg_cgc.c -cpu=S3 -o DefaultBuild\r_cg_cgc.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F10NPJ.DVF" -g -g_line -I Driver1\OtdDelay\inc -I Driver1\OtdUart\inc -I Application1\OtdGsm_App\inc -I Application1\OtdCircularBuffer_App\inc -I DRIVERS\Inc -I APPLICATION\APP\Inc -I SMDLED\inc -I cg_src -I . -c -MAKEUD=DefaultBuild -exec_time=C:\Users\pc\AppData\Local\Temp\CSPlusBuildTool_a6df7c33d58b48a6894a286fe5199cddyddkab2i.25b -msg_lang=english
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.01\Bin\ccrl.exe cg_src\r_cg_sau_user.c -cpu=S3 -o DefaultBuild\r_cg_sau_user.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F10NPJ.DVF" -g -g_line -I Driver1\OtdDelay\inc -I Driver1\OtdUart\inc -I Application1\OtdGsm_App\inc -I Application1\OtdCircularBuffer_App\inc -I DRIVERS\Inc -I APPLICATION\APP\Inc -I SMDLED\inc -I cg_src -I . -c -MAKEUD=DefaultBuild -exec_time=C:\Users\pc\AppData\Local\Temp\CSPlusBuildTool_6a09b07501c14934908b9ee2b85c78c1xy14whsv.cno -msg_lang=english
+W0511187:The evaluation period for the option "-Odefault" of CC-RL V1 has expired. It is implicitly changed to "-Olite". Please consider purchasing the product to continue using "-Odefault". By explicitly specifying "-Olite" or "-Onothing", this warning message disappears. 
+W0511187:The evaluation period for the option "-Odefault" of CC-RL V1 has expired. It is implicitly changed to "-Olite". Please consider purchasing the product to continue using "-Odefault". By explicitly specifying "-Olite" or "-Onothing", this warning message disappears. 
+G:\sam_ref_code\Develop\COM_HMU\DRIVERS\Inc\CAN.h(770):W0523076:Function declarations should have prototype
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.01\Bin\ccrl.exe cg_src\r_cg_intp.c -cpu=S3 -o DefaultBuild\r_cg_intp.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F10NPJ.DVF" -g -g_line -I Driver1\OtdDelay\inc -I Driver1\OtdUart\inc -I Application1\OtdGsm_App\inc -I Application1\OtdCircularBuffer_App\inc -I DRIVERS\Inc -I APPLICATION\APP\Inc -I SMDLED\inc -I cg_src -I . -c -MAKEUD=DefaultBuild -exec_time=C:\Users\pc\AppData\Local\Temp\CSPlusBuildTool_f219f6b753834ecb9362602ff8ea7f2a0d2ruscl.fdu -msg_lang=english
+W0511187:The evaluation period for the option "-Odefault" of CC-RL V1 has expired. It is implicitly changed to "-Olite". Please consider purchasing the product to continue using "-Odefault". By explicitly specifying "-Olite" or "-Onothing", this warning message disappears. 
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.01\Bin\rlink.exe -MAKEUD=DefaultBuild\COM_HMU.lk.ud -subcommand=DefaultBuild\COM_HMU.clnk
+W0561017:Paid license of CC-RL V1 is not found, and the evaluation period has expired. Please consider purchasing the product.
+W0561017:Paid license of CC-RL V1 is not found, and the evaluation period has expired. Please consider purchasing the product.
+Renesas Optimizing Linker Completed
+------ Build ended(Error:0, Warning:172)(COM_HMU, DefaultBuild) ------
+
+--- CommandFile 1 ---
+DefaultBuild\COM_HMU.clnk :
+-Input=DefaultBuild\cstart.obj
+-Input=DefaultBuild\stkinit.obj
+-Input=DefaultBuild\Driver.obj
+-Input=DefaultBuild\r_cg_main.obj
+-Input=DefaultBuild\r_cg_systeminit.obj
+-Input=DefaultBuild\r_cg_cgc.obj
+-Input=DefaultBuild\r_cg_cgc_user.obj
+-Input=DefaultBuild\r_cg_port.obj
+-Input=DefaultBuild\r_cg_port_user.obj
+-Input=DefaultBuild\r_cg_wdt.obj
+-Input=DefaultBuild\r_cg_wdt_user.obj
+-Input=DefaultBuild\r_cg_tau.obj
+-Input=DefaultBuild\r_cg_tau_user.obj
+-Input=DefaultBuild\SmdLed.obj
+-Input=DefaultBuild\r_cg_adc.obj
+-Input=DefaultBuild\r_cg_adc_user.obj
+-Input=DefaultBuild\Application.obj
+-Input=DefaultBuild\r_cg_dsadc.obj
+-Input=DefaultBuild\r_cg_dsadc_user.obj
+-Input=DefaultBuild\r_cg_sau.obj
+-Input=DefaultBuild\r_cg_sau_user.obj
+-Input=DefaultBuild\r_cg_intp.obj
+-Input=DefaultBuild\r_cg_intp_user.obj
+-Input=DefaultBuild\CAN.obj
+-Input=DefaultBuild\r_cg_rtc.obj
+-Input=DefaultBuild\r_cg_rtc_user.obj
+-Input=DefaultBuild\OtdCircularBuffer_App.obj
+-Input=DefaultBuild\OtdGsm_App.obj
+-Input=DefaultBuild\OtdGsm_TcpApp.obj
+-Input=DefaultBuild\OtdUART.obj
+-Input=DefaultBuild\OtdDelay.obj
+-SECURITY_ID=00000000000000000000
+-DEVICE=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F10NPJ.DVF
+-DEBug
+-NOCOmpress
+-NOOPtimize
+-OUtput=DefaultBuild\COM_HMU.abs
+-LIBrary=C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.01\lib\rl78em4s.lib
+-LIBrary=C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.01\lib\malloc_n.lib
+-LIBrary=C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.01\lib\rl78em4r.lib
+-OCDBG=84
+-DEBUG_MONITOR=3FE00-3FFFF
+-USER_OPT_BYTE=FFFFE0
+-OCDTR
+-LISt=DefaultBuild\COM_HMU.map
+-AUTO_SECTION_LAYOUT
+-ROm=.data=.dataR
+-ROm=.sdata=.sdataR
+-NOMessage
+-MEMory=High
+-NOLOgo
+-end
+-Input=DefaultBuild\COM_HMU.abs
+-DEVICE=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F10NPJ.DVF
+-OUtput=DefaultBuild\COM_HMU.mot
+-FOrm=Stype
+-NOMessage
+-exit
+
+
+--- SHA1 hash value of output files ---
+G:\sam_ref_code\Develop\COM_HMU\DefaultBuild\COM_HMU.abs: 9171946d36f0328f99b462953e0f8767356d4ed6
+G:\sam_ref_code\Develop\COM_HMU\DefaultBuild\COM_HMU.mot: 75c6bc4af57660a5c717c694853203e0df5cc0cf
+
+
+--- System Information ---
+*OS Version
+ Microsoft Windows 10 Pro (-, 10.0.19045, WOW64)
+*Language
+ English (United States)
+*.NET Framework Version
+ Microsoft .NET Framework 4 [.NET 4.8 or later] (533325)
+
+--- Application Information ---
+*Product Name
+ CS+ for CC
+*Package Version
+ V8.10.00  [06 Jun 2023]
+*Version
+ V9.10.00.03 [23 May 2023]
+*Assembly Version
+ 3.12.10.1
+*Sales Area
+ Japan
+*Product License
+ 
+*Execution Place
+ C:\Program Files (x86)\Renesas Electronics\CS+\CC
+*Memory Usage
+ *Private Working Set
+  220 MB
+ *Number of GDI Objects
+  1872
+ *Number of USER Objects
+  1042
+ *Opened Files
+  0 editors, 0 files, 0 KB
+
+--- Build Tool Plug-in Information ---
+RH850 Build tool CC-RH Plug-in
+ *Version
+  V8.09.00.00 [07 Oct 2022]
+ *Assembly Version
+  1.1.10.12
+ *DLL File Name
+  BuildToolCCRH.dll
+RL78 Build tool CC-RL Plug-in
+ *Version
+  V8.09.00.01 [07 Oct 2022]
+ *Assembly Version
+  1.0.0.0
+ *DLL File Name
+  BuildToolCCRL.dll
+RX Build tool CC-RX Plug-in
+ *Version
+  V8.09.00.00 [07 Oct 2022]
+ *Assembly Version
+  3.12.10.1
+ *DLL File Name
+  BuildToolCCRX.dll
+RH850 Build tool GHS CCRH850 Plug-in
+ *Version
+  V1.08.00.00 [03 Apr 2023]
+ *Assembly Version
+  1.0.0.0
+ *DLL File Name
+  BuildToolGHSCCRH850.dll
+
+--- Debug Tool Plug-in Information ---
+Debugger Collection Plug-in
+ *Version
+  V8.10.00.02 [12 May 2023]
+ *Assembly Version
+  2.12.10.1
+ *DLL File Name
+  DebugToolCollection.dll
+
+--- Other Plug-in Information ---
+Code Generator Plug-in
+ *Version
+  V4.08.06.01 [28 Oct 2022]
+ *Assembly Version
+  3.0.0.0
+ *DLL File Name
+  CodePart.dll
+Code Generator/PinView Plug-in
+ *Version
+  V2.10.07.02 [08 Nov 2021]
+ *Assembly Version
+  1.0.0.0
+ *DLL File Name
+  CodePart2.dll
+Debug Console Plug-in
+ *Version
+  V8.09.00.03 [24 Nov 2022]
+ *Assembly Version
+  8.9.0.0
+ *DLL File Name
+  DebugConsole.dll
+Quick and Effective tool solution - QE
+ *Version
+  V9.09.00.01 [18 Oct 2022]
+ *Assembly Version
+  1.15.10.16
+ *DLL File Name
+  InCarTools.dll
+Pin Configurator Plug-in
+ *Version
+  V1.54.01.01 [31 Jul 2014]
+ *Assembly Version
+  1.6.10.23
+ *DLL File Name
+  PinConfig.dll
+Program Analyzer Plug-in
+ *Version
+  V4.13.00.03 [24 May 2023]
+ *Assembly Version
+  3.12.11.9
+ *DLL File Name
+  ProgramAnalyzer.dll
+IronPython Console Plug-in
+ *Version
+  V1.46.00.02 [08 May 2023]
+ *Assembly Version
+  1.6.10.23
+ *DLL File Name
+  PythonConsole.dll
+Editor plug-in DLL
+ *Version
+  V1.19.00.01 [24 Oct 2022]
+ *Assembly Version
+  1.1.0.0
+ *DLL File Name
+  SEditor.dll
+Stack Usage Tracer
+ *Version
+  V1.05.00.02 [30 Jul 2014]
+ *Assembly Version
+  1.30.11.15
+ *DLL File Name
+  Stk.dll
+Update Manager Plug-in
+ *Version
+  V2.03.00.02 [29 Oct 2018]
+ *Assembly Version
+  1.13.6.20
+ *DLL File Name
+  Update.dll
+
+Debug Tool Common Interface
+ *Version
+  V8.10.00.02 [12 May 2023]
+ *Assembly Version
+  3.12.10.1
+ *DLL File Name
+  CommonDebuggerInterface.dll
+Device Information Common Interface
+ *Version
+  V9.10.00.01 [14 Apr 2023]
+ *Assembly Version
+  3.0.0.0
+ *DLL File Name
+  DeviceInformation.dll
+
+--- Main Project Information ---
+G:\sam_ref_code\Develop\COM_HMU\COM_HMU.mtpj
+Microcontroller Information
+ *R5F10NPJ
+  *File Name: Version
+   RL78_Productlist.xml: V8.100000
+   R5F10NPJ_common.xml: V1.01.00.XX.XX
+   DR5F10NPJ.DVF: V1.01
+   -: -
+   -: -
+  
+
+Build Tool Information
+ *CC-RL
+   * Version of plug-in(*.dll)
+     V8.10.00.02 [08 May 2023]
+   * The Version of the Compiler Package
+     V1.12.01
+  
+ * The version of SMS Assembler
+   V1.00.00.01 [29 May 2020]
+ * The version of GREEN_DSP Structured Assembler 
+   V1.04.02
+ 
+
+Debug Tool Information
+ *RL78 E2 Lite
+  Debugger Library V8.10.00.02 [12 May 2023]
+  
+
+Other Tool Information
+ *None
+
+ *Code Generator
+ *None
+
+ *Program Analyzer
+  *Version
+   V4.13.00.03 [24 May 2023]
+
+ *None
+
+Other Information
+ *RL78/I1C Code Library
+  *Version
+   V1.01.07.02 [08 Nov 2021]
+  *Description
+   Code library for RL78/I1C code generation plugin.
+
+

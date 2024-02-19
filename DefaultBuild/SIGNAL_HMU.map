@@ -1,0 +1,92 @@
+Renesas Optimizing Linker (W3.04.00 )             25-Jan-2024 11:42:39
+
+*** Options ***
+
+-subcommand=DefaultBuild\SIGNAL_HMU.clnk
+-Input=DefaultBuild\cstart.obj
+-Input=DefaultBuild\stkinit.obj
+-Input=DefaultBuild\Driver.obj
+-Input=DefaultBuild\r_cg_main.obj
+-Input=DefaultBuild\r_cg_systeminit.obj
+-Input=DefaultBuild\r_cg_cgc.obj
+-Input=DefaultBuild\r_cg_cgc_user.obj
+-Input=DefaultBuild\r_cg_port.obj
+-Input=DefaultBuild\r_cg_port_user.obj
+-Input=DefaultBuild\r_cg_wdt.obj
+-Input=DefaultBuild\r_cg_wdt_user.obj
+-Input=DefaultBuild\r_cg_tau.obj
+-Input=DefaultBuild\r_cg_tau_user.obj
+-Input=DefaultBuild\SmdLed.obj
+-Input=DefaultBuild\r_cg_adc.obj
+-Input=DefaultBuild\r_cg_adc_user.obj
+-Input=DefaultBuild\Application.obj
+-Input=DefaultBuild\r_cg_dsadc.obj
+-Input=DefaultBuild\r_cg_dsadc_user.obj
+-Input=DefaultBuild\r_cg_sau.obj
+-Input=DefaultBuild\r_cg_sau_user.obj
+-Input=DefaultBuild\r_cg_intp.obj
+-Input=DefaultBuild\r_cg_intp_user.obj
+-Input=DefaultBuild\CAN.obj
+-Input=DefaultBuild\r_cg_rtc.obj
+-Input=DefaultBuild\r_cg_rtc_user.obj
+-SECURITY_ID=00000000000000000000
+-DEVICE=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F10NPJ.DVF
+-DEBug
+-NOCOmpress
+-NOOPtimize
+-OUtput=DefaultBuild\SIGNAL_HMU.abs
+-LIBrary=C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.11.00\lib\rl78em4s.lib
+-LIBrary=C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.11.00\lib\malloc_n.lib
+-LIBrary=C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.11.00\lib\rl78em4r.lib
+-OCDBG=84
+-DEBUG_MONITOR=3FE00-3FFFF
+-USER_OPT_BYTE=FFFFE0
+-OCDTR
+-LISt=DefaultBuild\SIGNAL_HMU.map
+-AUTO_SECTION_LAYOUT
+-ROm=.data=.dataR
+-ROm=.sdata=.sdataR
+-NOMessage
+-MEMory=High
+-NOLOgo
+-end
+
+*** Error information ***
+
+*** Mapping List ***
+
+SECTION                            START      END         SIZE   ALIGN
+.vect
+                                  00000000  0000007f        80   0
+.constf
+                                  00000080  00000080         0   2
+.sdata
+                                  00000080  00000080         0   2
+.option_byte
+                                  000000c0  000000c3         4   1
+.security_id
+                                  000000c4  000000cd         a   1
+.monitor1
+                                  000000ce  000000d7         a   1
+.data
+                                  000000d8  000001f3       11c   2
+.text
+                                  000001f4  0000076f       57c   1
+.RLIB
+                                  00000770  00000bb9       44a   1
+.SLIB
+                                  00000bba  00000ddf       226   1
+.const
+                                  00002000  0000207f        80   2
+.textf
+                                  00002080  00004556      24d7   1
+.monitor2
+                                  0003fe00  0003ffff       200   1
+.bss
+                                  000fc700  000fc8b6       1b7   2
+.dataR
+                                  000fc8b8  000fc9d3       11c   2
+.sbss
+                                  000ffe20  000ffe20         0   2
+.sdataR
+                                  000ffe20  000ffe20         0   2
